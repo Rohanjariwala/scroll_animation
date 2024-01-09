@@ -16,11 +16,14 @@ img{
    position: absolute;
    top: 0;
    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-   max-width: 696px;
-     opacity: 0;  
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   max-width: 720px;
+   opacity: 0;  
+}
+#slider .img img.show{
+   opacity: 1;
 }
 #slider .card{
     height: 100%;
@@ -30,13 +33,10 @@ img{
     border-radius: 20px;
 }
 #slider .card:not(:first-child){
-width: 100%;
+  width: 100%;
   position: absolute;
-
 }
-#slider .card2{
-     top: 120%;
-}
+#slider .card2,
 #slider .card3{
      top: 150%;
 }
