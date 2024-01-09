@@ -1,0 +1,45 @@
+img{
+  width: 100%;
+  display: block;
+}
+#slider{
+  padding: 100px 0;
+}
+#slider .img {
+    margin: auto;
+    padding: 80px;
+    background: #ccc;
+    border-radius: 20px;
+}
+
+#slider .img img:not(:first-child){
+   position: absolute;
+   top: 0;
+   left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+   max-width: 696px;
+     opacity: 0;  
+}
+#slider .card{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: currentColor;
+    border-radius: 20px;
+}
+#slider .card:not(:first-child){
+width: 100%;
+  position: absolute;
+
+}
+#slider .card2{
+     top: 120%;
+}
+#slider .card3{
+     top: 150%;
+}
+#slider .card h2{
+  color: #fff;
+}
