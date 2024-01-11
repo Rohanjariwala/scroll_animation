@@ -9,12 +9,9 @@ setTimeout(() => {
     start: "50px 100px", 
     end: "+=1800 100px", 
     scrub: 0.2, 
-    markers:true,
+    // markers:true,
     toggleClass:  "title-selected",
-    // onUpdate: (self) => console.log("progress:", self.progress)
-    
-   
-   },
+    },
 });
 tl.to(".title",{
   y:-400,
@@ -44,7 +41,6 @@ tl.to(".scene3",{
    top:0, 
    duration:100,
 });
-
 
 }, 10);
 
